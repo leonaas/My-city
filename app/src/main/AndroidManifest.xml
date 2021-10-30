@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCity">
         <activity
+            android:name=".moi_obr"
+            android:exported="true" />
+        <activity
+            android:name=".Obrasheniya"
+            android:exported="true" />
+        <activity
             android:name=".Menu_"
             android:exported="true" />
         <activity

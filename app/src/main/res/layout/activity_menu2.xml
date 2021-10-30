@@ -7,62 +7,35 @@
     tools:context=".menu">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="662dp"
-        android:layout_height="729dp"
-        android:layout_marginBottom="180dp"
+        style="@style/imageview_style"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/the_weather" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="255dp"
-        android:layout_height="244dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="72dp"
+        style="@style/constview_style"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="248dp"
-            android:layout_height="216dp"
-            android:layout_marginEnd="7dp"
-            android:layout_marginBottom="28dp"
-            app:cardCornerRadius="40dp"
+            style="@style/cardview_style"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="201dp"
-                android:layout_height="51dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="170dp"
-                android:text="Определился чемпион Кыргызстана по волейболу "
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/textview_style"/>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="226dp"
-                android:layout_height="155dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="7dp"
-                app:cardCornerRadius="45dp"
+                style="@style/cardview_style2"
                 tools:layout_editor_absoluteX="13dp"
                 tools:layout_editor_absoluteY="329dp">
 
                 <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/cb34198b_8f86_4773_ac87_91b6642570d4_fdhq1zr2fk0_jpg__1024x683_q85_subsampling_2_jpg_1024x0_q85" />
+                    style="@style/imageview_style2" />
 
             </androidx.cardview.widget.CardView>
 
@@ -70,31 +43,17 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:text="15 C"
-        android:textColor="@color/white"
-        android:textSize="50sp"
+        style="@style/textview_style2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="415dp"
-        android:layout_height="495dp"
-        android:layout_marginTop="320dp"
+        style="@style/constview_style2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="419dp"
-            android:layout_height="474dp"
-            android:layout_marginEnd="410dp"
-            android:layout_marginBottom="396dp"
-            app:cardCornerRadius="40dp"
+            style="@style/cardview_style3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -103,80 +62,59 @@
             app:layout_constraintVertical_bias="0.0">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginStart="20dp">
+                style="@style/cardview_style4">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/_________" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
                 android:layout_marginTop="150dp"
-                android:layout_marginStart="20dp">
+                style="@style/cardview_style4">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/map_icon"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
                 android:layout_marginTop="280dp"
-                android:layout_marginStart="20dp">
+                style="@style/cardview_style4">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/set"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
+                style="@style/cardview_style5"
                 android:layout_marginStart="217dp"
                 android:layout_marginTop="20dp">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/obrasheniya_icon"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
+                style="@style/cardview_style5"
                 android:layout_marginStart="217dp"
                 android:layout_marginTop="150dp">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/info_icon"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="172dp"
-                android:layout_height="108dp"
-                app:cardCornerRadius="19dp"
+                style="@style/cardview_style5"
                 android:layout_marginStart="217dp"
                 android:layout_marginTop="280dp">
 
                 <ImageButton
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    style="@style/imagebutton_style"
                     android:src="@drawable/account_icon"
                     android:background="@color/white"/>
             </androidx.cardview.widget.CardView>
