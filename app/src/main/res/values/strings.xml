@@ -11,4 +11,20 @@
     <string name="Email">Электронная почта</string>
     <string name="Number">Номер</string>
     <string name="date_of_birth">Дата рождения</string>
+    <string name="Open_map">Открыть карту</string>
+    <string name="House_Number">Номер дома</string>
+    <string name="Adress">Адрес</string>
+    <string name="write_massage">Введите сообщение</string>
+    <string name="send_message">Отправить обращение</string>
+    <string name="massage">Обращения</string>
+    <string name="My_massages">Мои обращения</string>
+    <string name="In_process">В процессе</string>
+    <string name="names">Наименования</string>
+    <string name="today_10.10">Сегодня 10:10</string>
+    <string name="today_17_17">Сегодня 17:17</string>
+    <string name="today_20_08">Сегодня 22:08</string>
+    <string name="today_21_21">Сегодня 21:21</string>
+    <string name="cmon">В обработке</string>
+    <string name="done">Рассмотрен</string>
+
 </resources>
