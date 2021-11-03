@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="50dp"
             android:layout_marginTop="80dp"
-            android:text="Сегодня 02:08"
+            android:text="Сегодня 22:08"
             android:textColor="@color/littleblack"
             android:textSize="23sp" />
 
