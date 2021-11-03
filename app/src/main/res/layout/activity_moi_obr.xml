@@ -4,18 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/maincolor"
+    android:background="#4F98CF"
     tools:context=".MainActivity">
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="383dp"
+        android:layout_width="376dp"
         android:layout_height="127dp"
         android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
         app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView4"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
@@ -23,88 +25,67 @@
         <TextView
             android:layout_width="201dp"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_marginTop="10dp"
             android:text="Наименование"
-            android:layout_margin="10dp"
             android:textColor="@color/littleblack"
-            android:textSize="23sp"
+            android:textSize="23dp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="40dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/blue_ellipse" />
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/ic_stat_name"
+            app:tint="@color/maincolor" />
 
-        <ImageButton
-            android:id="@+id/imageButton8"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="80dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/white_ellipse" />
+            app:srcCompat="@drawable/ic_stat_name1"
+            app:tint="@color/maincolor" />
 
         <TextView
             android:layout_width="201dp"
             android:layout_height="wrap_content"
-            android:layout_margin="45dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="45dp"
             android:text="В процессе"
             android:textColor="@color/littleblack"
             android:textSize="23sp" />
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
-        android:layout_width="376dp"
-        android:layout_height="132dp"
-        app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/cardView3"
-        app:layout_constraintStart_toStartOf="@+id/cardView3"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3">
         <TextView
-            android:layout_width="201dp"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="45dp"
-            android:layout_marginTop="10dp"
-            android:text="В процессе"
-            android:textColor="@color/littleblack"
-            android:textSize="23sp" />
-        <TextView
-            android:layout_width="209dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Наименование"
-            android:layout_margin="10dp"
-            android:textColor="@color/littleblack"
-            android:textSize="23sp"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/imageButton13"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="40dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/blue_ellipse" />
-
-        <ImageButton
-            android:id="@+id/imageButton14"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
+            android:layout_marginHorizontal="50dp"
             android:layout_marginTop="80dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/white_ellipse" />
+            android:text="Сегодня 17:17"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="330dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/ic_stat_name3"
+            app:tint="@color/maincolor" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView4"
+        android:id="@+id/cardView2"
         android:layout_width="376dp"
-        android:layout_height="132dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView3"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -114,109 +95,228 @@
         <TextView
             android:layout_width="201dp"
             android:layout_height="wrap_content"
-            android:layout_margin="45dp"
-            android:layout_marginTop="10dp"
-            android:text="В обработке"
-            android:textColor="@color/littleblack"
-            android:textSize="23sp" />
-        <TextView
-            android:layout_width="199dp"
-            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_marginTop="10dp"
             android:text="Наименование"
-            android:layout_margin="10dp"
             android:textColor="@color/littleblack"
-            android:textSize="23sp"
+            android:textSize="23dp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/imageButton9"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="40dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/blue_ellipse" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/ic_stat_name"
+            app:tint="@color/maincolor" />
 
-        <ImageButton
-            android:id="@+id/imageButton10"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="80dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/white_ellipse" />
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
-        android:layout_width="379dp"
-        android:layout_height="130dp"
-        app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView5"
-        app:layout_constraintEnd_toEndOf="@+id/cardView4"
-        app:layout_constraintStart_toStartOf="@+id/cardView4"
-        app:layout_constraintTop_toBottomOf="@+id/cardView4">
+            app:srcCompat="@drawable/ic_stat_name1"
+            app:tint="@color/maincolor" />
 
         <TextView
             android:layout_width="201dp"
             android:layout_height="wrap_content"
-            android:layout_margin="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="45dp"
+            android:text="В обработке"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="80dp"
+            android:text="Сегодня 02:08"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="330dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/ic_stat_name3"
+            app:tint="@color/maincolor" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="376dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView4"
+        app:layout_constraintEnd_toEndOf="@+id/cardView2"
+        app:layout_constraintStart_toStartOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_marginTop="10dp"
+            android:text="Наименование"
+            android:textColor="@color/littleblack"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/ic_stat_name"
+            app:tint="@color/maincolor" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/ic_stat_name1"
+            app:tint="@color/maincolor" />
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="45dp"
             android:text="Рассмотрен"
             android:textColor="@color/littleblack"
             android:textSize="23sp" />
+
         <TextView
-            android:layout_width="203dp"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="80dp"
+            android:text="Сегодня 11:11"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="330dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/ic_stat_name3"
+            app:tint="@color/maincolor" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="376dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardView3"
+        app:layout_constraintStart_toStartOf="@+id/cardView3"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3">
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:layout_marginTop="10dp"
             android:text="Наименование"
-            android:layout_margin="10dp"
             android:textColor="@color/littleblack"
-            android:textSize="23sp"
+            android:textSize="23dp"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/imageButton11"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="40dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/blue_ellipse" />
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/ic_stat_name"
+            app:tint="@color/maincolor" />
 
-        <ImageButton
-            android:id="@+id/imageButton12"
-            android:layout_width="45dp"
-            android:layout_height="40dp"
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginHorizontal="10dp"
             android:layout_marginTop="80dp"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/white_ellipse" />
+            app:srcCompat="@drawable/ic_stat_name1"
+            app:tint="@color/maincolor" />
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="45dp"
+            android:text="В процессе"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="80dp"
+            android:text="Сегодня 21:21"
+            android:textColor="@color/littleblack"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="330dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/ic_stat_name3"
+            app:tint="@color/maincolor" />
+
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="271dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
-            android:id="@+id/imageButton6"
-            android:layout_width="57dp"
-            android:layout_height="35dp"
-            android:layout_weight="1"
-            android:background="#00FFFFFF"
-            app:srcCompat="@drawable/back"
-            app:tint="#FFFFFF" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_stat_name2" />
 
         <TextView
-            android:layout_width="219dp"
-            android:layout_height="110dp"
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
             android:text="Мои обращения"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
 
