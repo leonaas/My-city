@@ -6,232 +6,137 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="93dp"
-            android:layout_marginTop="262dp"
-            android:layout_marginEnd="93dp"
-            android:text="Добро пожаловать!"
-            android:textColor="#0B6EBC"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="93dp"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/name"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="33dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00593535"
-            android:backgroundTint="#FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login"
-            app:rippleColor="#A6A5A5"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
 
-        <Button
-            android:id="@+id/name2"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="116dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00FFFFFF"
-            android:backgroundTint="#00FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="106dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="153dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/bishkek" />
 
-        <Button
-            android:id="@+id/name3"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="200dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00FFFFFF"
-            android:backgroundTint="#00FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/login"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="342dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:srcCompat="@drawable/rectangle_17" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_marginStart="152dp"
-            android:layout_marginTop="116dp"
-            android:layout_marginEnd="153dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="327dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:hint="@string/name"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
-        <Button
-            android:id="@+id/зарегистрироваться"
-            android:layout_width="157dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="136dp"
-            android:layout_marginEnd="135dp"
-            android:layout_marginBottom="95dp"
-            android:backgroundTint="#69B0E3"
-            android:ellipsize="none"
-            android:text="Войти"
-            android:textSize="12dp"
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/name3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_17" />
 
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="4dp"
+        android:hint="Пароль"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="138dp"
-            android:layout_marginEnd="137dp"
-            android:layout_marginBottom="66dp"
-            android:text="Зарегистрироваться"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_17" />
 
-        <Button
-            android:id="@+id/name"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00593535"
-            android:backgroundTint="#FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name4"
-            app:rippleColor="#A6A5A5"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
+    <EditText
+        android:id="@+id/name3"
+        android:layout_width="326dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Номер телефона"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/name4"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00593535"
-            android:backgroundTint="#FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:rippleColor="#A6A5A5"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/component_9" />
 
-        <Button
-            android:id="@+id/name2"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00FFFFFF"
-            android:backgroundTint="#00FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
-
-        <Button
-            android:id="@+id/name3"
-            style="@style/Widget.AppCompat.Button"
-            android:layout_width="364dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="27dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginEnd="28dp"
-            android:background="#00FFFFFF"
-            android:backgroundTint="#00FDFDFD"
-            app:iconPadding="16dp"
-            app:iconTint="#494848"
-            app:iconTintMode="add"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/name2"
-            app:strokeColor="#00686666"
-            app:strokeWidth="@dimen/material_emphasis_disabled" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="106dp"
-            android:layout_height="130dp"
-            android:layout_marginStart="152dp"
-            android:layout_marginTop="96dp"
-            android:layout_marginEnd="153dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <Button
-            android:id="@+id/зарегистрироваться"
-            android:layout_width="201dp"
-
-            android:layout_height="58dp"
-            android:layout_marginStart="136dp"
-            android:layout_marginEnd="135dp"
-            android:layout_marginBottom="88dp"
-            android:backgroundTint="#69B0E3"
-            android:ellipsize="none"
-            android:text="Зарегистрироваться"
-            android:textSize="12dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.508"
-            app:layout_constraintStart_toStartOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="79dp"
+        android:text="Зарегистрироваться"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

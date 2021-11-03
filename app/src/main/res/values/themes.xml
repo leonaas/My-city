@@ -194,6 +194,5 @@
         <item name="android:layout_marginEnd">63dp</item>
         <item name="android:layout_marginBottom">123dp</item>
         <item name="srcCompat">@drawable/voiti</item>
-        <item name=""
     </style>
 </resources>
