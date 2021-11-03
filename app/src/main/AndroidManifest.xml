@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCity">
         <activity
-            android:name=".MainActivity_map2"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity_signin"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity

@@ -20,11 +20,11 @@
     <string name="My_massages">Мои обращения</string>
     <string name="In_process">В процессе</string>
     <string name="names">Наименования</string>
+    <string name="today_10.10">Сегодня 10:10</string>
+    <string name="today_17_17">Сегодня 17:17</string>
+    <string name="today_20_08">Сегодня 22:08</string>
+    <string name="today_21_21">Сегодня 21:21</string>
     <string name="cmon">В обработке</string>
     <string name="done">Рассмотрен</string>
-    <string name="hello">Добро пожаловать!</string>
-    <string name="password">пароль</string>
-    <string name="number">номер телефона</string>
-    <string name="registr">зарегистрироваться</string>
-    <string name="passwordcheck">подтверждение пароля</string>
+
 </resources>
