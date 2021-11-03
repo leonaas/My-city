@@ -49,6 +49,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         style="@style/constview_style2"
+        android:id="@+id/constraintLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 

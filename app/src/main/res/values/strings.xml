@@ -26,5 +26,8 @@
     <string name="today_21_21">Сегодня 21:21</string>
     <string name="cmon">В обработке</string>
     <string name="done">Рассмотрен</string>
+    <string name="Register">Зарегистрироваться</string>
+    <string name="phonenumber">Номер Телефона</string>
+    <string name="welcom">Добро пожаловать!</string>
 
 </resources>
