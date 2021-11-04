@@ -15,14 +15,15 @@
         <entry key="..\:/my city/app/src/main/res/layout/activity_account.xml" value="0.33" />
         <entry key="..\:/my city/app/src/main/res/layout/activity_setting.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.23854166666666668" />
+        <entry key="app/src/main/res/layout/activity_account_red.xml" value="0.23854166666666668" />
         <entry key="app/src/main/res/layout/activity_code_phone.xml" value="0.22118690698968432" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_menu2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_moi_obr.xml" value="0.19528316842815188" />
-        <entry key="app/src/main/res/layout/activity_obrasheniya.xml" value="0.33237534828463317" />
+        <entry key="app/src/main/res/layout/activity_moi_obr.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_obrasheniya.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.25" />
       </map>
     </option>
