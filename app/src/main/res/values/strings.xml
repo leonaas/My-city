@@ -20,27 +20,14 @@
     <string name="My_massages">Мои обращения</string>
     <string name="In_process">В процессе</string>
     <string name="names">Наименования</string>
-    <string name="today_10.10">Сегодня 10:10</string>
-    <string name="today_17_17">Сегодня 17:17</string>
-    <string name="today_20_08">Сегодня 22:08</string>
-    <string name="today_21_21">Сегодня 21:21</string>
+    <string name="hello">Добро пожаловать!</string>
+    <string name="registr">Зарегистрироваться</string>
+    <string name="password">пароль</string>
+    <string name="number">номер телефона</string>
+    <string name="passwordcheck">подтверждение пароля</string>
+    <string name=""
     <string name="cmon">В обработке</string>
     <string name="done">Рассмотрен</string>
-    <string name="Register">Зарегистрироваться</string>
-    <string name="phonenumber">Номер Телефона</string>
-    <string name="welcom">Добро пожаловать!</string>
-    <string name="settings">Настройки</string>
-    <string name="change_language">Сменить язык</string>
-    <string name="Russia">Русский</string>
-    <string name="setting">Настройки уведомлений</string>
-    <string name="sett">Уведомлять об изменениях обращений</string>
-    <string name="set">Уведомлять о новых версиях приложения</string>
-    <string name="delete">Удалить аккаунт</string>
-    <string name="Gul">Gul-Piyaz</string>
-    <string name="Gul_email">gul_piyaz@gmail.com</string>
-    <string name="Gul_number">+996777 777 777</string>
-    <string name="Gul_date">7/7/1977</string>
-    <string name="ready">Готово</string>
 
 
 </resources>
