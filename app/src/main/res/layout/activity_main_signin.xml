@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/bishkek" />
 
+
     <EditText
         android:id="@+id/name2"
         android:layout_width="326dp"

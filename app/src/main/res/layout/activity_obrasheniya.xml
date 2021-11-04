@@ -17,6 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <TextView
+
             android:id="@+id/textView"
             android:layout_width="287dp"
             android:layout_height="168dp"

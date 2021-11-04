@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Map">
 
+
     <androidx.cardview.widget.CardView
         android:layout_width="410dp"
         android:layout_height="280dp"
