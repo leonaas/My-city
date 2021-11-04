@@ -25,9 +25,11 @@
     <string name="password">пароль</string>
     <string name="number">номер телефона</string>
     <string name="passwordcheck">подтверждение пароля</string>
-    <string name=""
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="register">Зарегистрироваться</string>
     <string name="cmon">В обработке</string>
     <string name="done">Рассмотрен</string>
+    <string name="voitii">Войти</string>
 
 
 </resources>
