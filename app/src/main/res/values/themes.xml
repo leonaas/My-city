@@ -194,4 +194,12 @@
         <item name="android:layout_marginBottom">123dp</item>
         <item name="srcCompat">@drawable/voiti</item>
     </style>
+
+    <style name="imageview_style4">
+        <item name="android:layout_width">662dp</item>
+        <item name="android:layout_height">729dp</item>
+        <item name="srcCompat">@drawable/reaincloud</item>
+        <item name="android:layout_marginBottom">180dp</item>
+        <item name="android:id">@id/imageView4</item>
+    </style>
 </resources>
