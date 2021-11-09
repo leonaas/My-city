@@ -49,5 +49,11 @@
     <string name="date">06.11.2021</string>
     <string name="add">+</string>
     <string name="change">Редактировать</string>
+    <string name="time_of_work">Сегодня 08:00 - 17:00</string>
+    <string name="time_for_lunch">Обед 12:00 - 13:00 прием граждан: пн-пт 13:00-17:00</string>
+    <string name="adres">10-й микрорайон, 35</string>
+    <string name="mail">720023, Бишкек, 10 м-н 3 этажа</string>
+    <string name="websites">bishkeksuukanal.kg</string>
+    <string name="number_of_organization">+996777 777 777</string>
 
 </resources>
