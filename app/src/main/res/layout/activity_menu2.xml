@@ -96,7 +96,8 @@
 
                 <ImageButton
                     style="@style/imagebutton_style"
-                    android:src="@drawable/obrasheniya_icon"/>
+                    android:src="@drawable/obrasheniya_icon"
+                    android:background="@color/maincolor"/>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
