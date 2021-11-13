@@ -43,7 +43,7 @@
                 <ImageButton
                     android:id="@+id/imageButton2"
                     android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_height="41dp"
                     android:background="@color/white"
                     app:srcCompat="@drawable/camera"
                     app:tint="@color/maincolor"
@@ -65,14 +65,14 @@
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="45dp"
+            android:layout_width="56dp"
             android:layout_height="35dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/back"
             app:tint="#FFFFFF" />
 
         <TextView
-            android:layout_width="210dp"
+            android:layout_width="219dp"
             android:layout_height="50dp"
             android:text="@string/massage"
             android:textColor="@color/white"
@@ -144,21 +144,80 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="371dp"
-            android:layout_height="202dp"
-            app:srcCompat="@drawable/_111111111" />
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="95dp">
 
-        <ImageView
-            android:id="@+id/imageView40"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginHorizontal="323dp"
-            android:layout_marginVertical="5dp"
-            app:srcCompat="@drawable/cancel" />
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="125dp"
+                android:layout_height="95dp"
+                app:srcCompat="@drawable/street" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="95dp"
+            android:layout_marginHorizontal="128dp">
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="130dp"
+                android:layout_height="95dp"
+                app:srcCompat="@drawable/_111111111" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="95dp"
+            android:layout_marginHorizontal="261dp">
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="125dp"
+                android:layout_height="95dp"
+                app:srcCompat="@drawable/bishkekvodokanal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="110dp"
+            android:layout_marginVertical="73dp">
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="125dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/street2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="129dp"
+            android:layout_height="95dp"
+            android:layout_marginHorizontal="128dp"
+            android:layout_marginVertical="80dp">
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="129dp"
+                android:layout_height="95dp"
+                app:srcCompat="@drawable/street3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="110dp"
+            android:layout_marginHorizontal="261dp"
+            android:layout_marginVertical="73dp">
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="125dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/street4" />
+        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
-
     <androidx.cardview.widget.CardView
         android:layout_width="280dp"
         android:layout_height="56dp"
@@ -179,6 +238,4 @@
             tools:layout_editor_absoluteY="654dp" />
 
     </androidx.cardview.widget.CardView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
