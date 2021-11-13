@@ -7,6 +7,7 @@
     android:background="@color/maincolor"
     tools:context=".MainActivity">
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="372dp"

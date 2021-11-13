@@ -75,16 +75,14 @@
     
     <style name="constview_style2">
         <item name="android:layout_width">415dp</item>
-        <item name="android:layout_height">495dp</item>
-        <item name="android:layout_marginTop">320dp</item>
+        <item name="android:layout_height">410dp</item>
     </style>
     
     <style name="cardview_style3">
         <item name="android:layout_width">419dp</item>
         <item name="android:layout_height">474dp</item>
-        <item name="android:layout_marginEnd">410dp</item>
-        <item name="android:layout_marginBottom">396dp</item>
         <item name="cardCornerRadius">40dp</item>
+        <item name="android:layout_marginTop">100dp</item>
     </style>
 
 
