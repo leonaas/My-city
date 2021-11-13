@@ -87,6 +87,7 @@
         <item name="cardCornerRadius">40dp</item>
     </style>
 
+
     <style name="cardview_style4">
         <item name="android:layout_width">172dp</item>
         <item name="android:layout_height">108dp</item>
