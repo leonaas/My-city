@@ -9,6 +9,7 @@ class menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu2)
+
         val CardView = findViewById<CardView>(R.id.obrasheniya)
 
         CardView.setOnClickListener {
