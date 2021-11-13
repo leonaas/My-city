@@ -124,6 +124,7 @@
 
                         <androidx.cardview.widget.CardView
                             android:layout_marginTop="20dp"
+                            android:id="@+id/obrasheniya"
                             style="@style/cardview_style4">
 
                             <ImageButton
