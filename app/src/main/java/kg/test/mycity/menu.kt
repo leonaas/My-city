@@ -11,8 +11,9 @@ class menu : AppCompatActivity() {
         setContentView(R.layout.activity_menu2)
         val CardView = findViewById<CardView>(R.id.obrasheniya)
 
-        CardView.setOnClickListener{
+        CardView.setOnClickListener {
             startActivity(Intent(this,Obrasheniya::class.java))
+            finish()
         }
     }
 }
