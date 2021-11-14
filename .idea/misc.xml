@@ -20,6 +20,7 @@
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_obrasheniya.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_obrasheniyavybor.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_podrobnoeobrasheniye.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_select_map.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/_643779_clock_hour_ticker_time_times_113446_2.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/_____.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/_______2_.xml" value="0.2703125" />
@@ -38,8 +39,6 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/icons8______________________48_1.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/icons8_______pad_48_1.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/image_2.xml" value="0.2703125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/img_3704_1.xml" value="0.26666666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/img_3704_1__1_.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/info_icon.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/kvadraty.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/line_1.xml" value="0.2703125" />
@@ -51,11 +50,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/phone_call_icon_128788.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_17.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_25.xml" value="0.2703125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_26.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_32.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_32_1_.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_39.xml" value="0.2703125" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/rectangle_40.xml" value="0.26666666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/set.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/settings_icon.xml" value="0.2703125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/drawable/voiti.xml" value="0.2703125" />
@@ -78,7 +75,6 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/layout/activity_menu2_pogoda.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/layout/activity_moi_obr.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/layout/activity_obrasheniya.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/layout/activity_obrasheniyavybor.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/User/AndroidStudioProjects/My City/app/src/main/res/layout/activity_setting.xml" value="0.24728260869565216" />
         <entry key="..\:/Users/guest1/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_main2.xml" value="0.33" />
         <entry key="..\:/Users/guest1/AndroidStudioProjects/My-city/app/src/main/res/layout/activity_moi_obr.xml" value="0.36666666666666664" />
