@@ -46,7 +46,6 @@
             android:textSize="25sp" />
     </androidx.cardview.widget.CardView>
 
-
     <androidx.cardview.widget.CardView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
@@ -99,9 +98,7 @@
                 android:inputType="textMultiLine"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
-
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="347dp"
@@ -119,9 +116,7 @@
                 android:inputType="textMultiLine"
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
-
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="347dp"
@@ -140,7 +135,6 @@
                 android:textColor="@color/gray"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="347dp"
@@ -165,7 +159,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
-
             <Button
                 android:layout_width="210dp"
                 android:layout_height="55dp"

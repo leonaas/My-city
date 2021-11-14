@@ -57,5 +57,8 @@
     <string name="number_of_organization">+996777 777 777</string>
     <string name="sended_17_17">Отправлен сегодня в 17:17</string>
     <string name="text_obrasheniya">Текст обращения</string>
+    <string name="open_with">Открыть с помощью</string>
+    <string name="google_maps">Google maps</string>
+    <string name="_2_gis">2GIS</string>
 
 </resources>
