@@ -178,7 +178,7 @@
             <Button
                 android:layout_width="347dp"
                 android:layout_height="70dp"
-                android:background="@color/black2"
+                android:background="@color/black21"
                 android:text="@string/delete"
                 android:textColor="@color/blue2"
                 android:textSize="20sp">
