@@ -1,14 +1,22 @@
-package kg.test.mycity;
+package kg.test.mycity
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.ImageButton
+import android.widget.TextView
+import kg.test.mycity.R
 
-import android.os.Bundle;
+class MainActivity2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
 
-public class MainActivity2 extends AppCompatActivity {
+        val ImageButton = findViewById<ImageButton>(R.id.imageView6)
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        ImageButton.setOnClickListener {
+            startActivity(Intent(this, menu::class.java))
+            finish()
+        }
     }
 }

@@ -19,11 +19,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView8"
             android:layout_width="31dp"
             android:layout_height="31dp"
             android:layout_marginEnd="250dp"
+            android:backgroundTint="@color/black21"
             app:layout_constraintEnd_toStartOf="@+id/textView17"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -181,7 +182,6 @@
                 android:text="@string/delete"
                 android:textColor="@color/blue2"
                 android:textSize="20sp">
-
 
             </Button>
         </androidx.cardview.widget.CardView>
