@@ -55,5 +55,7 @@
     <string name="mail">720023, Бишкек, 10 м-н 3 этажа</string>
     <string name="websites">bishkeksuukanal.kg</string>
     <string name="number_of_organization">+996777 777 777</string>
+    <string name="sended_17_17">Отправлен сегодня в 17:17</string>
+    <string name="text_obrasheniya">Текст обращения</string>
 
 </resources>
