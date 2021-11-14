@@ -146,8 +146,9 @@
                             style="@style/cardview_style4">
 
                             <ImageButton
+                                android:id="@+id/settings"
                                 style="@style/imagebutton_style"
-                                android:src="@drawable/set"/>
+                                android:src="@drawable/set" />
                         </androidx.cardview.widget.CardView>
                     </LinearLayout>
 
@@ -169,6 +170,7 @@
 
                             <ImageButton
                                 style="@style/imagebutton_style"
+                                android:id="@+id/moi_obrasheniya"
                                 android:src="@drawable/obrasheniya_icon"/>
                         </androidx.cardview.widget.CardView>
 
