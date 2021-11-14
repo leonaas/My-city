@@ -169,7 +169,7 @@
             <Button
                 android:layout_width="210dp"
                 android:layout_height="55dp"
-                android:background="@color/black2"
+                android:background="@color/black21"
                 android:text="@string/ready"
                 android:textColor="@color/blue2"
                 android:textSize="18sp">

@@ -25,7 +25,6 @@
     <style name="constview_style">
         <item name="android:layout_height">244dp</item>
         <item name="android:layout_width">255dp</item>
-        <item name="android:layout_marginStart">120dp</item>
         <item name="android:layout_marginTop">72dp</item>
     </style>
 
@@ -67,8 +66,7 @@
         <item name="android:id">@id/textView3</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">28dp</item>
+
         <item name="android:text">@string/weather</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">50sp</item>
@@ -76,23 +74,21 @@
     
     <style name="constview_style2">
         <item name="android:layout_width">415dp</item>
-        <item name="android:layout_height">495dp</item>
-        <item name="android:layout_marginTop">320dp</item>
+        <item name="android:layout_height">410dp</item>
     </style>
     
     <style name="cardview_style3">
         <item name="android:layout_width">419dp</item>
         <item name="android:layout_height">474dp</item>
-        <item name="android:layout_marginEnd">410dp</item>
-        <item name="android:layout_marginBottom">396dp</item>
         <item name="cardCornerRadius">40dp</item>
+        <item name="android:layout_marginTop">100dp</item>
     </style>
+
 
     <style name="cardview_style4">
         <item name="android:layout_width">172dp</item>
         <item name="android:layout_height">108dp</item>
         <item name="cardCornerRadius">19dp</item>
-        <item name="android:layout_marginStart">20dp</item>
     </style>
 
     <style name="cardview_style5">
@@ -119,10 +115,7 @@
     <style name="imagebutton_style2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">63dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">63dp</item>
-        <item name="srcCompat">@drawable/kvadraty</item>
+        <item name="srcCompat">@drawable/rectangle_26</item>
     </style>
     
     <style name="constview_Style3">
