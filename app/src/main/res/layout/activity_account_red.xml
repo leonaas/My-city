@@ -160,6 +160,7 @@
             android:layout_marginTop="25dp"
             app:cardCornerRadius="20dp">
             <Button
+                android:id="@+id/gotovo"
                 android:layout_width="210dp"
                 android:layout_height="55dp"
                 android:background="@color/black21"
