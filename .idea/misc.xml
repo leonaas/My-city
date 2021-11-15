@@ -76,11 +76,13 @@
         <entry key="app/src/main/res/layout/activity_main_map2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main_signin.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_map.xml" value="0.16259057971014493" />
+        <entry key="app/src/main/res/layout/activity_mappoisk.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_menu2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu2_pogoda.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_moi_obr.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_obrasheniya.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_obrasheniyaphoto.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_obrasheniyavybor.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_podrobnoeobrasheniye.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_select_map.xml" value="0.125" />

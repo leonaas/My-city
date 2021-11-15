@@ -81,7 +81,8 @@
                         tools:layout_editor_absoluteX="13dp"
                         tools:layout_editor_absoluteY="329dp">
 
-                        <ImageView style="@style/imageview_style2" />
+                        <ImageView
+                            style="@style/imageview_style2" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -135,14 +136,17 @@
 
                         <androidx.cardview.widget.CardView
                             android:layout_marginTop="20dp"
+                            android:id="@+id/mapgoogle"
                             style="@style/cardview_style4">
 
                             <ImageButton
+                                android:id="@+id/mapbutton"
                                 style="@style/imagebutton_style"
                                 android:src="@drawable/map_icon"/>
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/setting"
                             android:layout_marginTop="20dp"
                             style="@style/cardview_style4">
 
@@ -177,6 +181,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/uclugi"
                             style="@style/cardview_style5"
                             android:layout_marginTop="20dp">
 
@@ -186,10 +191,12 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/account"
                             style="@style/cardview_style5"
                             android:layout_marginTop="20dp">
 
                             <ImageButton
+                                android:id="@+id/accountbutton"
                                 style="@style/imagebutton_style"
                                 android:src="@drawable/account_icon"
                                 android:background="@color/white"/>

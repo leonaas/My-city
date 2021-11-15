@@ -9,20 +9,23 @@ import android.widget.TextView
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.`activity_main_login`)
+        setContentView(R.layout.activity_main_login)
 
-        val imageButton = findViewById<ImageButton>(R.id.login2)
+        val login2 = findViewById<ImageButton>(R.id.login2)
 
-        imageButton.setOnClickListener {
+        login2.setOnClickListener {
             startActivity(Intent(this, MenuActivity::class.java))
             finish()
         }
 
-        val TextView = findViewById<TextView>(R.id.textView24)
+        val textView24 = findViewById<TextView>(R.id.textView24)
 
-        TextView.setOnClickListener {
+        textView24.setOnClickListener {
             startActivity(Intent(this, SigninActivity::class.java))
             finish()
+
         }
+
+
     }
 }

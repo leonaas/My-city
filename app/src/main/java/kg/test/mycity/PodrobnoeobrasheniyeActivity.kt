@@ -10,10 +10,10 @@ class PodrobnoeobrasheniyeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_podrobnoeobrasheniye)
 
-        val ImageButton = findViewById<ImageButton>(R.id.imageView6)
+        val back = findViewById<ImageButton>(R.id.back)
 
-        ImageButton.setOnClickListener{
-            startActivity(Intent(this,MenuActivity::class.java))
+        back.setOnClickListener{
+            startActivity(Intent(this,MoiObrActivity::class.java))
             finish()
         }
     }

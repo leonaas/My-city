@@ -10,9 +10,9 @@ class SigninActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_signin)
 
-        val imageButton = findViewById<ImageButton>(R.id.imageView17)
+        val sign_in_button = findViewById<ImageButton>(R.id.sign_in_button)
 
-        imageButton.setOnClickListener {
+        sign_in_button.setOnClickListener {
             startActivity(Intent(this, CodephoneActivity::class.java))
             finish()
         }

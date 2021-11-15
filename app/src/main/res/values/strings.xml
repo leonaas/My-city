@@ -60,5 +60,9 @@
     <string name="open_with">Открыть с помощью</string>
     <string name="google_maps">Google maps</string>
     <string name="_2_gis">2GIS</string>
+    <string name="vodokanal">Водоканал</string>
+    <string name="tazalyk">МП Тазалык</string>
+    <string name="bishkeksvet">Бишкексвет</string>
+    <string name="selenhoz">Селенхоз</string>
 
 </resources>

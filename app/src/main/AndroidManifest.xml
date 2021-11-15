@@ -13,22 +13,25 @@
             android:name=".PodrobnoeobrasheniyeActivity"
             android:exported="true" />
         <activity
-            android:name=".messages"
-            android:exported="false" />
+            android:name=".SigninActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SelectMapActivity"
+            android:exported="true" />
         <activity
             android:name=".ObrasheniyaVyborActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity_Obrasheniyavybor"
+            android:name=".MapActivity"
             android:exported="true" />
         <activity
             android:name=".CodeAccountActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Menu2pogodaActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity_3"
+            android:name=".AccountRedActivity"
             android:exported="true" />
         <activity
             android:name=".ObrasheniyaPhotoActivity"
@@ -46,7 +49,7 @@
             android:name=".ObrasheniyaActivity"
             android:exported="true" />
         <activity
-            android:name=".Menu_"
+            android:name=".MapPoiskActivity"
             android:exported="true" />
         <activity
             android:name=".CodephoneActivity"

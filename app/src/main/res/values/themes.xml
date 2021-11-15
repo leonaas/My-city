@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyCity" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.MyCity" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -19,7 +19,6 @@
         <item name="android:layout_height">729dp</item>
         <item name="srcCompat">@drawable/the_weather</item>
         <item name="android:layout_marginBottom">180dp</item>
-        <item name="android:id">@id/imageView2</item>
     </style>
 
     <style name="constview_style">
@@ -59,7 +58,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="srcCompat">@drawable/cb34198b_8f86_4773_ac87_91b6642570d4_fdhq1zr2fk0_jpg__1024x683_q85_subsampling_2_jpg_1024x0_q85</item>
-        <item name="android:id">@id/imageView4</item>
     </style>
 
     <style name="textview_style2">
@@ -193,7 +191,6 @@
         <item name="android:layout_height">729dp</item>
         <item name="srcCompat">@drawable/reaincloud</item>
         <item name="android:layout_marginBottom">180dp</item>
-        <item name="android:id">@id/imageView4</item>
     </style>
 
     <style name="textview_style_map">

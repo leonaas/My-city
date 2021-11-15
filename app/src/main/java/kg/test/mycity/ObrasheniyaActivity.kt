@@ -10,10 +10,17 @@ class ObrasheniyaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_obrasheniya)
 
-        val ImageButton = findViewById<ImageButton>(R.id.imageView6)
+        val back = findViewById<ImageButton>(R.id.back)
 
-        ImageButton.setOnClickListener{
+        back.setOnClickListener{
             startActivity(Intent(this,MenuActivity::class.java))
+            finish()
+        }
+
+        val camera = findViewById<ImageButton>(R.id.camera)
+
+        camera.setOnClickListener{
+            startActivity(Intent(this,ObrasheniyaVyborActivity::class.java))
             finish()
         }
     }

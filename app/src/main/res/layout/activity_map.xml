@@ -32,12 +32,12 @@
             app:srcCompat="@drawable/lupa" />
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/vodokanal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="80dp"
-            android:text="Водоканал"
+            android:text="@string/vodokanal"
             android:textSize="25sp" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="130dp"
-            android:text="МП Тазалык"
+            android:text="@string/tazalyk"
             android:textSize="25sp" />
 
         <TextView
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="180dp"
-            android:text="Бишкексвет"
+            android:text="@string/bishkeksvet"
             android:textSize="25sp" />
 
         <TextView
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="230dp"
-            android:text="Селенхоз"
+            android:text="@string/selenhoz"
             android:textSize="25sp" />
 
         <ImageView

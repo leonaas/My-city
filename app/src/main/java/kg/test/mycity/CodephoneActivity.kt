@@ -10,9 +10,9 @@ class CodephoneActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_code_phone)
 
-        val ImageButton = findViewById<ImageButton>(R.id.imageButton3)
+        val imageButton3 = findViewById<ImageButton>(R.id.imageButton3)
 
-        ImageButton.setOnClickListener{
+        imageButton3.setOnClickListener{
             startActivity(Intent(this,MenuActivity::class.java))
             finish()
         }
