@@ -16,7 +16,7 @@
             android:name=".messages"
             android:exported="false" />
         <activity
-            android:name=".Obrasheniya_vybor"
+            android:name=".ObrasheniyaVyborActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity_Obrasheniyavybor"
@@ -25,13 +25,13 @@
             android:name=".CodeAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".menu2_pogoda"
+            android:name=".Menu2pogodaActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity_3"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".ObrasheniyaPhotoActivity"
             android:exported="true" />
         <activity
             android:name=".SettingActivity"
@@ -40,22 +40,22 @@
             android:name=".AccountActivity"
             android:exported="true" />
         <activity
-            android:name=".moi_obr"
+            android:name=".MoiObrActivity"
             android:exported="true" />
         <activity
-            android:name=".Obrasheniya"
+            android:name=".ObrasheniyaActivity"
             android:exported="true" />
         <activity
             android:name=".Menu_"
             android:exported="true" />
         <activity
-            android:name=".Code_phone"
+            android:name=".CodephoneActivity"
             android:exported="true" />
         <activity
-            android:name=".menu"
+            android:name=".MenuActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

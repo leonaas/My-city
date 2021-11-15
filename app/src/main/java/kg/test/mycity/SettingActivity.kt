@@ -13,7 +13,7 @@ class SettingActivity : AppCompatActivity() {
         val ImageButton = findViewById<ImageButton>(R.id.imageView8)
 
         ImageButton.setOnClickListener{
-            startActivity(Intent(this,menu::class.java))
+            startActivity(Intent(this,MenuActivity::class.java))
             finish()
         }
     }
