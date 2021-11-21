@@ -15,10 +15,9 @@
     </style>
 
     <style name="imageview_style">
-        <item name="android:layout_width">662dp</item>
-        <item name="android:layout_height">729dp</item>
+        <item name="android:layout_width">610dp</item>
+        <item name="android:layout_height">340dp</item>
         <item name="srcCompat">@drawable/the_weather</item>
-        <item name="android:layout_marginBottom">180dp</item>
     </style>
 
     <style name="constview_style">
@@ -76,10 +75,10 @@
     </style>
     
     <style name="cardview_style3">
-        <item name="android:layout_width">419dp</item>
-        <item name="android:layout_height">474dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="cardCornerRadius">40dp</item>
-        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:layout_marginTop">15dp</item>
     </style>
 
 

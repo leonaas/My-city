@@ -11,7 +11,7 @@ class MoiObrActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_moi_obr)
 
-        val backk = findViewById<ImageButton>(R.id.backk)
+        val backk = findViewById<ImageView>(R.id.backk)
 
         backk.setOnClickListener{
             startActivity(Intent(this,MenuActivity::class.java))
